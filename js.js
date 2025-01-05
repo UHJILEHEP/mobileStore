@@ -19,7 +19,7 @@ fetch(url,{
     itemsDiv.innerHTML = ''
     console.log(result)
     result.forEach(element => {
-        console.log("el")
+        // console.log("el")
         itemsDiv.innerHTML += `
                                 <div class="item" id="item">
                                     <img class="itemImg" src="${element.photo_url}" alt="Item image">
