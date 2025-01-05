@@ -12,9 +12,9 @@ header{
     text-align: center;
 }
 
-main{
+/* main{
     height: 80vh;
-}
+} */
 
 h1{
     margin: 0.5rem;
@@ -107,4 +107,20 @@ footer{
 
 .loadingInfo{
     font-size: 3rem;
+}
+
+@media (min-width:600px) and (max-width: 800px) {
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width:600px){
+    .items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
 }
