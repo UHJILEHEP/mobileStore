@@ -201,6 +201,8 @@ footer p{
 
     h1{
         font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
     }
 
     .logo{
