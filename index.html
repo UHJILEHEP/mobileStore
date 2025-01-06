@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- <script src="https://webmiddle-2e4b.restdb.io/rest/_jsapi.js"></script> -->
     <script defer src="./js.js"></script>
 </head>
 <body>
     <header>
+      <img class="logo" src="./img/Ruby_Rose_Emblem.svg" alt="logo">
       <h1>Welcome to my store</h1>
+      <div id="menu" class="menu" onclick='menuf()'>
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        <!-- <ul id="list">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul> -->
+      </div>
+      <!-- <div class="menuList"> -->
+        
+      <!-- </div> -->
     </header>
+    <hr>
     <main>
       <div class="items" id="items">
 
@@ -27,8 +41,10 @@
 
       </div>
     </main>
+    
     <footer>
       <p>by UHJILEHEP</p>
+      <p>v 0.2.2</p>
     </footer>
 </body>
 </html>
