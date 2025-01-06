@@ -9,6 +9,7 @@ body{
 }
 
 header{
+    /* visibility:hidden; */
     /* text-align: center; */
     display: flex;
     justify-content: space-evenly;
@@ -180,6 +181,15 @@ footer p{
 }
 
 @media (min-width:600px) and (max-width: 800px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .logo{
+        height: 60px;
+    }
+
     .items{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -188,9 +198,19 @@ footer p{
 }
 
 @media (max-width:600px){
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .logo{
+        height: 40px;
+    }
+
     .items{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 1rem;
     }
+
 }
