@@ -8,6 +8,10 @@ body{
     padding: 0 1rem 0.5rem;
 }
 
+.adminButton:visited{
+    color: black;
+}
+
 header{
     /* visibility:hidden; */
     /* text-align: center; */
