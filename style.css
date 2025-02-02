@@ -28,6 +28,7 @@ header{
     top:2rem;
     right: 0.5rem;
     height: fit-content;
+    color: black;
 }
 
 .fa-bars{
@@ -35,8 +36,8 @@ header{
     /* scale: 2; */
 }
 
-.menu:hover{
-    cursor: pointer;
+.menu:visited{
+    color: black;
 }
 
 /* .menuList{

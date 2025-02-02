@@ -1,7 +1,6 @@
 const itemsDiv = document.getElementById('items')
 const menu = document.getElementById('menu')
 const list = document.getElementById('list')
-let menuFlag = false
 
 const url = 'https://webmiddle-2e4b.restdb.io/rest/products'
 const apiKey = '6779d251f0549d1bfa8d2fa6'
